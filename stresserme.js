@@ -1,4 +1,4 @@
-function yanitlar(ayarlar, hata, tepki, body, geridonus) {
+function yanitlar(ayarlar, hata, tepki, genel, geridonus) {
     if (typeof ayarlar.kodlar === 'bolge') {
         genel = genel.toString(ayarlar.kodlar);
         if (dogrulamahatasi = hatakontrolu(hata, genel)) {
@@ -12,7 +12,7 @@ function yanitlar(ayarlar, hata, tepki, body, geridonus) {
  
 var saldiri = {
     bypassedelim(method, linkimiz, proxylerimiz) {
-        performRequest({
+        istekler({
             method: method,
             proxylerimiz: 'http://' + proxylerimiz,
             linkimiz: linkimiz
