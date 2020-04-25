@@ -10,7 +10,7 @@
 > -Layer 7 DDoS Sistemi <br/>
 > -Süre Sistemi <br/> 
 > -Url Sistemi <br/> 
-> -Not: Soket Sistemi Oluşturmadan Çalışmaz :) <br/> 
+> -Not: Soket Sistemi Oluşturmadan Çalışmaz :) <br/> <br/>
 > https://stresser.me <br/> 
 > Coded By HasanAtilan <br/>
 > twitter.com/netmrhasan - telegram: netmrhasan <br/>
